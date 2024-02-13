@@ -9,6 +9,9 @@ public class User {
 		
 	}
 	
-	
+	public void sayHello() {
+		System.out.println("Hi, my name is " + name);
+	}
+
 
 }
