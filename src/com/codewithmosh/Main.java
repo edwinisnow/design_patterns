@@ -1,12 +1,18 @@
 package com.codewithmosh;
-// abstraction -  reduce complex by hiding unnecessary details of a class
-// tv remote - not worried about transistors etc inside the remote
-// we can change the implementation details without affecting the mail class
+// inheritance - mechanism of reusing code
 public class Main {
 
 	public static void main(String[] args) {
-		var mailService = new MailService();
-		mailService.sendEmail();
+//		Textbox
+//		Button
+//		Checkbox
+		
+//		enable()
+//		focus()
+//		setPosition()
+		
+		var textBox = new Textbox();
+		textBox.enable();
 	}
 	
 }
