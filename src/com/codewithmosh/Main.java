@@ -1,5 +1,5 @@
 package com.codewithmosh;
-// inheritance - mechanism of reusing code
+// polymorpishm - ability of an object many forms
 public class Main {
 
 	public static void main(String[] args) {
@@ -11,8 +11,12 @@ public class Main {
 //		focus()
 //		setPosition()
 		
-		var textBox = new Textbox();
-		textBox.enable();
+		drawUIControl(new Textbox());
+		drawUIControl(new Checkbox());
+	}
+	
+	public static void drawUIControl(UIControl control) {
+		control.draw();
 	}
 	
 }
